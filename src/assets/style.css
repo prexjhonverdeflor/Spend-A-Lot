@@ -25,16 +25,9 @@ body {
   font-size: 18px;
 }
 
-/* In your global stylesheet or in <style> section of your component */
-.toast-delete {
-  background-color: red; /* Set the background color to red */
-  color: white; /* Set text color to white for better contrast */
-}
-
-
 .container {
   margin: 30px auto;
-  width: 400px;
+  width: 380px;
 }
 
 h1 {
