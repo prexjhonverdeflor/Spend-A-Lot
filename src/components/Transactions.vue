@@ -7,10 +7,13 @@
       :class="transaction.amount < 0 ? 'minus' : 'plus'"
     >
       {{ transaction.text }} <span>₱{{ formatNumber(transaction.amount) }}</span>
-      <button @click="deleteTransaction(transaction.id)" class="delete-btn">x</button>
+      <button @click="deleteTransaction(transaction.id)" class="delete-btn">
+        <i class="fas fa-trash-alt"></i>
+      </button>
     </li>
   </ul>
 </template>
+
 
 <script setup>
 import { defineProps, defineEmits } from 'vue';

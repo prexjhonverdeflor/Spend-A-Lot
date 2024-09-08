@@ -1,5 +1,5 @@
 <template>
-  <h4>Balance</h4>
+  <h4 class="balance-h4">Balance</h4>
   <h1 id="balance">₱{{ new Intl.NumberFormat('en-US').format(props.total) }}</h1>
 </template>
 
