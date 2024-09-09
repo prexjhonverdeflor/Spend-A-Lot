@@ -27,7 +27,7 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 340px;
+  width: 400px;
 }
 
 h1 {
@@ -78,7 +78,7 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #00c753;
 
 }
 
@@ -111,21 +111,23 @@ input[type='number'] {
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
+  margin-left: 20px;
 }
 
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  color: #333;
+  color:  #333;
   display: flex;
   justify-content: space-between;
   position: relative;
   padding: 10px;
   margin: 10px 0;
+
 }
 
 .list li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 5px solid #00c753;
 }
 
 .list li.minus {
