@@ -140,7 +140,7 @@ input[type='number'] {
   border: 0;
   color: #fff;
   font-size: 15px;
-  line-height: 40px;
+  line-height: 43px;
   width: 40px;
   padding: 2px 5px;
   position: absolute;
@@ -148,6 +148,7 @@ input[type='number'] {
   left: 0;
   transform: translate(-100%, -50%);
   transition: opacity 0.3s ease, background-color 0.3s ease;
+  box-shadow: var(--box-shadow);
 }
 .delete-btn:hover {
   background-color: #880f01;
